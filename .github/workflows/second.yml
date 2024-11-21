@@ -6,7 +6,7 @@ jobs :
     steps :
       - uses : actions/checkout@v3
       - name : Setup python
-        uses : actions/setup@v2
+        uses : actions/setup-python@v2
         with:
           # Semantic version range syntax or exact version of a Python version
           python-version: '3.8'
