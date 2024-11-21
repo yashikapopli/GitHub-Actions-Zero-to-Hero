@@ -1,5 +1,5 @@
 name : Creating CI/CD 
-# on : [push]
+on : [push]
 jobs :
   build :
     runs-on : ubuntu-latest
